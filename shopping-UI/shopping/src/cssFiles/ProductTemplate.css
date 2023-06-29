@@ -1,0 +1,39 @@
+.ProductTemplate{
+    width: 27%;
+}
+.ProductTemplate .image{
+    height: 17rem;
+}
+.ProductTemplate .image img{
+    padding: 1rem;
+    width: 13rem;
+    height: 13rem;
+}
+
+.ProductTemplate .details{
+    /* background-color: rgb(221, 214, 200); */
+    /* width: 33%; */
+    height: 25rem;
+    min-width: 18rem;
+    /* border: 1px solid; */
+    margin: 1rem 0;
+    overflow: hidden;
+    overflow-wrap: normal;
+}
+
+.ProductTemplate .productCategory{
+    margin-top: 0.5rem;
+}
+
+.ProductTemplate .data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    /* color: white; */
+}
+
+.ProductTemplate a{
+    color: rgb(79, 144, 187);
+    font-size: smaller;
+}

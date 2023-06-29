@@ -1,0 +1,16 @@
+.CartDetails{
+    padding: 10px;
+}
+.CartDetails .currProductToOrder{
+    text-align: center;
+
+}
+.CartDetails .historyAndAddress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.CartDetails .address{
+    margin: 1rem 0;
+}

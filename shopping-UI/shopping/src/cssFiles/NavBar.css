@@ -1,0 +1,33 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgb(11, 14, 44);
+}
+
+.NavBar ul{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    margin: auto 0;
+    padding-left: 0;
+}
+
+.NavBar li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 1rem;
+    align-self: center;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-left: 28rem;
+}
+a{
+    color: rgb(238, 238, 238);
+    text-decoration:wavy !important;
+    font-size: large;
+    font-weight:600;
+}

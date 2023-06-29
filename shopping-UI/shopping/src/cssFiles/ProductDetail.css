@@ -1,0 +1,39 @@
+.ProductDetail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.productImg{
+align-items: center;
+margin: 1rem auto;
+    
+}
+
+.ProductDetail img{
+    width: 100%;
+    height: 10rem;
+}
+.imageSelector{
+    display: flex;
+    justify-content: center;
+}
+.productDetail{
+    width: 50%;
+    margin: auto;
+    border: 1px solid;
+    margin: 5rem auto;
+    padding: 1rem;
+}
+
+h4{
+    text-align: center;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    /* color: white; */
+}

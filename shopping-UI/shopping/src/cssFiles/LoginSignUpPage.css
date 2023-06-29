@@ -1,0 +1,45 @@
+.LoginSignUpPage{
+    width: 20rem;
+    height: 12rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.LoginSignUpPage .email{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.LoginSignUpPage .email input{
+    margin-left: 2.3rem;
+}
+.LoginSignUpPage .password{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.LoginSignUpPage input{
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+}
+.LoginSignUpPage .login{
+    text-align: center;
+}
+.LoginSignUpPage button{
+    width: 87%;
+    margin: 15px;
+}
+.LoginSignUpPage .signUp{
+    text-align: center;
+  
+}
+
+.LoginSignUpPage a{
+    color: rgb(94, 17, 17);
+    font-weight: 400;
+    font-size: medium;
+}
